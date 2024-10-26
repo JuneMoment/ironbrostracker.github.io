@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generation 1 Pokédex Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .pokedex {
+            max-width: 600px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: white;
+        }
+        .pokemon-entry {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .pokemon-entry:last-child {
+            border-bottom: none;
+        }
+        .version-exclusive {
+            color: #888;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Generation 1 Pokédex Tracker</h1>
+<div class="pokedex">
+    <!-- Full Generation 1 Pokédex -->
+    <div class="pokemon-entry"><label><input type="checkbox" name="bulbasaur"> #001 Bulbasaur</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="ivysaur"> #002 Ivysaur</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="venusaur"> #003 Venusaur</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="charmander"> #004 Charmander</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="charmeleon"> #005 Charmeleon</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="charizard"> #006 Charizard</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="squirtle"> #007 Squirtle</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="wartortle"> #008 Wartortle</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="blastoise"> #009 Blastoise</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="caterpie"> #010 Caterpie</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="metapod"> #011 Metapod</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="butterfree"> #012 Butterfree</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="weedle"> #013 Weedle</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="kakuna"> #014 Kakuna</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="beedrill"> #015 Beedrill</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="pidgey"> #016 Pidgey</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="pidgeotto"> #017 Pidgeotto</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="pidgeot"> #018 Pidgeot</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="rattata"> #019 Rattata</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="raticate"> #020 Raticate</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="spearow"> #021 Spearow</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="fearow"> #022 Fearow</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="ekans"> #023 Ekans</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="arbok"> #024 Arbok</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="pikachu"> #025 Pikachu</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="raichu"> #026 Raichu</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="sandshrew"> #027 Sandshrew</label> <span class="version-exclusive">Blue Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="sandslash"> #028 Sandslash</label> <span class="version-exclusive">Blue Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="nidoran-f"> #029 Nidoran♀</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="nidorina"> #030 Nidorina</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="nidoqueen"> #031 Nidoqueen</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="nidoran-m"> #032 Nidoran♂</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="nidorino"> #033 Nidorino</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="nidoking"> #034 Nidoking</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="clefairy"> #035 Clefairy</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="clefable"> #036 Clefable</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="vulpix"> #037 Vulpix</label> <span class="version-exclusive">Blue Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="ninetales"> #038 Ninetales</label> <span class="version-exclusive">Blue Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="jigglypuff"> #039 Jigglypuff</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="wigglytuff"> #040 Wigglytuff</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="zubat"> #041 Zubat</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="golbat"> #042 Golbat</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="oddish"> #043 Oddish</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="gloom"> #044 Gloom</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="vileplume"> #045 Vileplume</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="paras"> #046 Paras</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="parasect"> #047 Parasect</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="venonat"> #048 Venonat</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="venomoth"> #049 Venomoth</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="diglett"> #050 Diglett</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="dugtrio"> #051 Dugtrio</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="meowth"> #052 Meowth</label> <span class="version-exclusive">Blue Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="persian"> #053 Persian</label> <span class="version-exclusive">Blue Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="psyduck"> #054 Psyduck</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="golduck"> #055 Golduck</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="mankey"> #056 Mankey</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="primeape"> #057 Primeape</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="growlithe"> #058 Growlithe</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="arcanine"> #059 Arcanine</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="poliwag"> #060 Poliwag</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="poliwhirl"> #061 Poliwhirl</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="poliwrath"> #062 Poliwrath</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="abra"> #063 Abra</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="kadabra"> #064 Kadabra</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="alakazam"> #065 Alakazam</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="machop"> #066 Machop</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="machoke"> #067 Machoke</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="machamp"> #068 Machamp</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="bellsprout"> #069 Bellsprout</label> <span class="version-exclusive">Blue Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="weepinbell"> #070 Weepinbell</label> <span class="version-exclusive">Blue Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="victreebel"> #071 Victreebel</label> <span class="version-exclusive">Blue Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="tentacool"> #072 Tentacool</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="tentacruel"> #073 Tentacruel</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="geodude"> #074 Geodude</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="graveler"> #075 Graveler</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="golem"> #076 Golem</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="ponyta"> #077 Ponyta</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="rapidash"> #078 Rapidash</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="slowpoke"> #079 Slowpoke</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="slowbro"> #080 Slowbro</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="magnemite"> #081 Magnemite</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="magneton"> #082 Magneton</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="farfetchd"> #083 Farfetch'd</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="doduo"> #084 Doduo</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="dodrio"> #085 Dodrio</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="seel"> #086 Seel</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="dewgong"> #087 Dewgong</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="grimer"> #088 Grimer</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="muk"> #089 Muk</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="shellder"> #090 Shellder</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="cloyster"> #091 Cloyster</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="gastly"> #092 Gastly</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="haunter"> #093 Haunter</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="gengar"> #094 Gengar</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="onix"> #095 Onix</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="drowzee"> #096 Drowzee</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="hypno"> #097 Hypno</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="krabby"> #098 Krabby</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="kingler"> #099 Kingler</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="voltorb"> #100 Voltorb</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="electrode"> #101 Electrode</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="exeggcute"> #102 Exeggcute</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="exeggutor"> #103 Exeggutor</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="cubone"> #104 Cubone</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="marowak"> #105 Marowak</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="hitmonlee"> #106 Hitmonlee</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="hitmonchan"> #107 Hitmonchan</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="lickitung"> #108 Lickitung</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="koffing"> #109 Koffing</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="weezing"> #110 Weezing</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="rhyhorn"> #111 Rhyhorn</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="rhydon"> #112 Rhydon</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="chansey"> #113 Chansey</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="tangela"> #114 Tangela</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="kangaskhan"> #115 Kangaskhan</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="horsea"> #116 Horsea</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="seadra"> #117 Seadra</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="goldeen"> #118 Goldeen</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="seaking"> #119 Seaking</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="staryu"> #120 Staryu</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="starmie"> #121 Starmie</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="mr-mime"> #122 Mr. Mime</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="scyther"> #123 Scyther</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="jynx"> #124 Jynx</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="electabuzz"> #125 Electabuzz</label> <span class="version-exclusive">Red Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="magmar"> #126 Magmar</label> <span class="version-exclusive">Blue Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="pinsir"> #127 Pinsir</label> <span class="version-exclusive">Blue Exclusive</span></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="tauros"> #128 Tauros</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="magikarp"> #129 Magikarp</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="gyarados"> #130 Gyarados</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="lapras"> #131 Lapras</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="ditto"> #132 Ditto</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="eevee"> #133 Eevee</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="vaporeon"> #134 Vaporeon</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="jolteon"> #135 Jolteon</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="flareon"> #136 Flareon</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="porygon"> #137 Porygon</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="omanyte"> #138 Omanyte</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="omastar"> #139 Omastar</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="kabuto"> #140 Kabuto</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="kabutops"> #141 Kabutops</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="aerodactyl"> #142 Aerodactyl</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="snorlax"> #143 Snorlax</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="articuno"> #144 Articuno</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="zapdos"> #145 Zapdos</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="moltres"> #146 Moltres</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="dratini"> #147 Dratini</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="dragonair"> #148 Dragonair</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="dragonite"> #149 Dragonite</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="mewtwo"> #150 Mewtwo</label></div>
+    <div class="pokemon-entry"><label><input type="checkbox" name="mew"> #151 Mew</label></div>
+</div>
+
+</body>
+</html>
